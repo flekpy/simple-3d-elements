@@ -13,6 +13,8 @@ function main() {
   axisDirection(clientWidth, clientHeight, drawer)
   drawer.drawCube()
   drawer.drawRectangle()
+  drawer.drawPyramid()
+  drawer.drawOctahedron()
   ctx.putImageData(imageData, 0, 0)
 }
 
